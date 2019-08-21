@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head_title %}
+Contact
+{% endblock %}
+
+{% block content %}
+<p>This is {{title}} page</p>
+
+
+{% for a in mylist %}
+<li>{{a}}</li>
+{% endfor %}
+
+
+{% endblock %}
